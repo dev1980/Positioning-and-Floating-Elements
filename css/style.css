@@ -62,7 +62,7 @@ button {
 
 .details_img {
   width:1200px;
-  margin: auto;
+  margin: 0 auto;
   text-align: justify;
   margin-bottom:60px;
 }
