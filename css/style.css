@@ -24,33 +24,40 @@ z-index: -1;
 }
 
 button {
-  background-color:  rgb(26, 130, 214);
+  background-color: #326891;
   border-radius: 7px;
   border: 0;
+  color: white;
 }
 
 .right button{
   padding:10px 20px;
 }
 
-.center {
+.center-logo {
   position: absolute;
   top:0;
   left:40%;
   font-family: 'Pattaya', sans-serif;
 }
 
-.left{
+.left-icon{
   position: absolute;
   left:50px;
   top:0;
-  
  
 }
-.left h3 {
+  .icon-1 {
+    padding-right:20px;
+  }
+.left-icon h3 {
   display:inline;
+  font-size: 15px;
+  padding: 15px;
 }
-
+.left-icon a{
+  color:black;
+}
 
 .details{
   width:600px;
@@ -61,7 +68,7 @@ button {
 }
 
 .details_img {
-  width:1200px;
+  width:1200gipx;
   margin: 0 auto;
   text-align: justify;
   margin-bottom:60px;
