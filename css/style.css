@@ -2,7 +2,7 @@ body {
 font-family: 'Mada', sans-serif;
 }
 
-header {
+nav {
   position: fixed;
   width:100%;
   top:0;
@@ -84,7 +84,7 @@ float:right;
 
 }
 
-.details p{
+.details a{
 margin-top:40px;
 font-size: 20px;
 line-height: 30px;
@@ -264,7 +264,7 @@ width:300px;
   margin-bottom:2px;
 }
 
-.media_item p{
+.article-link{
   margin: 2px 0;
 }
 
