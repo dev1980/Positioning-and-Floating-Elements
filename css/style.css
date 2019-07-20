@@ -14,7 +14,7 @@ header {
   border-bottom:1px solid gray;
 }
 .container{
-margin-top: 61px;
+margin-top: 45px;
 z-index: -1;
 }
 .right{
@@ -58,12 +58,6 @@ button {
 .left-icon a{
   color:black;
 }
-
-.body-section{
-  width:1200px;
-  margin: 0 auto;
-}
-
 .details{
   width:600px;
   margin: auto;
