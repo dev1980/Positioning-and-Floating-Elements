@@ -13,9 +13,11 @@ header {
   line-height: 50px;
   border-bottom:1px solid gray;
 }
-.container{
-margin-top: 61px;
+.main{
+margin-top: 45px;
 z-index: -1;
+width: 1200px;
+margin: 0 auto;
 }
 .right{
   position: absolute;
@@ -58,12 +60,6 @@ button {
 .left-icon a{
   color:black;
 }
-
-.body-section{
-  width:1200px;
-  margin: 0 auto;
-}
-
 .details{
   width:600px;
   margin: auto;
@@ -251,6 +247,10 @@ width:300px;
   font-size:15px;
   line-height: 20px;
 }
+.popular a {
+  text-decoration: none;
+  color: black;
+}
 
 .media {
   display: grid;
@@ -259,10 +259,15 @@ width:300px;
   margin: 20px 0;
 }
 
+
 .media_item {
   width:270px;
   font-size:15px;
   line-height:20px;
+}
+.media_item a{
+  text-decoration: none;
+  color: black;
 }
 
 .media_item figcaption{
