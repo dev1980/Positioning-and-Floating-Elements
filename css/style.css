@@ -251,6 +251,10 @@ width:300px;
   font-size:15px;
   line-height: 20px;
 }
+.popular a {
+  text-decoration: none;
+  color: black;
+}
 
 .media {
   display: grid;
@@ -259,10 +263,15 @@ width:300px;
   margin: 20px 0;
 }
 
+
 .media_item {
   width:270px;
   font-size:15px;
   line-height:20px;
+}
+.media_item a{
+  text-decoration: none;
+  color: black;
 }
 
 .media_item figcaption{
