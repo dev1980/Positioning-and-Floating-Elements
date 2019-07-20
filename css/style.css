@@ -24,49 +24,57 @@ z-index: -1;
 }
 
 button {
-  background-color:  rgb(26, 130, 214);
+  background-color: #326891;
   border-radius: 7px;
   border: 0;
+  color: white;
 }
 
 .right button{
   padding:10px 20px;
 }
 
-.center {
+.center-logo {
   position: absolute;
   top:0;
   left:40%;
   font-family: 'Pattaya', sans-serif;
 }
 
-.left{
+.left-icon{
   position: absolute;
   left:50px;
   top:0;
-  
  
 }
-.left h3 {
+  .icon-1 {
+    padding-right:20px;
+  }
+.left-icon h3 {
   display:inline;
+  font-size: 15px;
+  padding: 15px;
+}
+.left-icon a{
+  color:black;
 }
 
+.body-section{
+  width:1200px;
+  margin: 0 auto;
+}
 
 .details{
   width:600px;
   margin: auto;
-  text-align: justify;
+  text-align:left;
   margin-bottom:60px;
  
 }
-
-.details_img {
-  width:1200px;
-  margin: auto;
-  text-align: justify;
-  margin-bottom:60px;
+.details_img  img{
+  width: 945px;
+  height:532px;
 }
-
 .details_img h2 {
   font-style: italic;
   margin: 2rem auto;
@@ -88,13 +96,11 @@ float:right;
 margin-top:40px;
 font-size: 20px;
 line-height: 30px;
-margin-bottom:20px;
+margin-bottom:10px;
 }
-
 .two_sides{
 position: relative;
 }
-
 
 .left_side{
   text-align: justify;
@@ -110,10 +116,10 @@ position: relative;
 }
 
 .right_side{
-max-width:220px;
+max-width:250px;
 margin-top: 160px;
 position: absolute;
-right:10vw;
+right:1vw;
 top:60px;
 }
 .img-div {
