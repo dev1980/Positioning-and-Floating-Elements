@@ -13,9 +13,11 @@ header {
   line-height: 50px;
   border-bottom:1px solid gray;
 }
-.container{
+.main{
 margin-top: 45px;
 z-index: -1;
+width: 1200px;
+margin: 0 auto;
 }
 .right{
   position: absolute;
